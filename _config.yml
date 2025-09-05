@@ -34,4 +34,10 @@ footer-links:
 # Appearance
 darkmode: true
 
+# Collections: genera output dai markdown in _projects
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
 

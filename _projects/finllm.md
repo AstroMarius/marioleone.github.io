@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "FinLLM"
-permalink: /projects/finllm
+permalink: /projects/finllm/
 ---
 
 # 📈 FinLLM

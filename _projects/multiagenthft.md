@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MultiAgentHFT
-permalink: /projects/multiagenthft
+permalink: /projects/multiagenthft/
 ---
 
 # ⚡ MultiAgentHFT
