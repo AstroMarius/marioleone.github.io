@@ -7,8 +7,23 @@ permalink: /projects/multiagenthft
 # ⚡ MultiAgentHFT
 
 **A multi-agent system for high-frequency trading.**  
-Developed in C++ and Python, this platform integrates with IBKR API and ClickHouse to manage millions of real-time events.
+Built with a hybrid **C++/Python architecture**, the platform integrates seamlessly with the **IBKR API** and **ClickHouse**, processing millions of market events per second with sub-millisecond latency.  
 
-- **Focus**: modular agent design, resilience, sub-ms latency  
-- **Stack**: C++20, Python 3.11, ZeroMQ, Docker, GitHub Actions  
-- **Outcome**: extensible environment to integrate ML models predicting market trends
+## 🔹 Focus
+- Modular intelligent agents  
+- Fault tolerance and resilience  
+- Ultra-low latency execution  
+
+## 🔹 Tech Stack
+- **Languages**: C++20, Python 3.11  
+- **Messaging**: ZeroMQ  
+- **Infrastructure**: Docker, GitHub Actions  
+- **Database**: ClickHouse  
+
+## 🔹 Highlights
+- Real-time dashboards powered by intelligent trading agents  
+- Scalable pipelines for live tick data and historical queries  
+- Extensible environment to integrate **ML models** for predictive analytics and trend forecasting  
+
+## 🔹 Outcome
+A resilient foundation for **algorithmic trading strategies**, **backtesting**, and **AI-driven decision-making** in production.
