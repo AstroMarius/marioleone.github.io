@@ -17,9 +17,9 @@ selected_papers: false
 social: true
 ---
 
-Experienced **AI Engineer** with a strong background in **algorithmic trading systems** and **machine learning applications**.  
+Experienced AI Engineer with a strong background in algorithmic trading systems and machine learning applications.
 
-I design and implement **low-latency architectures** and **real-time dashboards** powered by **intelligent trading agents**, combining **C++ performance** with **Python-based AI models** to optimize execution and decision-making in high-frequency environments.  
+I design and implement low-latency architectures and real-time dashboards powered by intelligent trading agents. By combining C++ performance with Python-based AI models, I build solutions that enhance execution speed and decision-making in high-frequency trading environments. Beyond trading, my expertise extends to developing scalable AI systems and data-driven applications across financial and industrial domains.
 
 ---
 
