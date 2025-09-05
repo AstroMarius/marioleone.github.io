@@ -33,11 +33,12 @@ Advanced proficiency in **C++**, **Python**, and **TypeScript**, with additional
 
 Expertise in **Large Language Models (LLMs)**, **Deep Learning**, and **Financial Machine Learning**, with proven applications in:  
 
+- **Intelligent trading agents for HFT dashboards**  
 - Customer churn prediction  
 - Credit risk modeling  
 - Time-series forecasting  
 - Advanced data analysis and decision support  
-- **Intelligent trading agents for HFT dashboards**  
+
 
 ### Systems & Infrastructure  
 

@@ -182,6 +182,12 @@ p {
   margin-bottom: 1em;
 }
 
+/* Gestione dello spazio tra le sezioni con titoli ### */
+h3 {
+  margin-top: 2rem; /* Spazio sopra il titolo */
+  margin-bottom: 1rem; /* Spazio sotto il titolo */
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   header, footer {
