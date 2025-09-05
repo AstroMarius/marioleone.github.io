@@ -34,27 +34,8 @@
           {% endfor %}
 
           {% for nav_item in site.navbar-links %}
-            {%- comment -%}
-            Support two config shapes:
-            1) navbar-links defined as a map in _config.yml (current repository):
-               navbar-links:
-                 Home: "/"
-                 Projects: "/projects/"
-               In this case iterating yields the keys (labels), so we must lookup the path on the original map.
-            2) navbar-links defined as an array of single-key maps:
-               navbar-links:
-                 - Home: "/"
-                 - Projects: "/projects/"
-               In this case iterating yields each map, so we extract the first key and its value.
-            {%- endcomment -%}
             {% assign label = nav_item | keys | first %}
-            {% if label == nil or label == '' %}
-              {% comment %}nav_item is a plain string (the key) when navbar-links is a map{% endcomment %}
-              {% assign label = nav_item %}
-              {% assign path = site['navbar-links'][nav_item] %}
-            {% else %}
-              {% assign path = nav_item[label] %}
-            {% endif %}
+            {% assign path = nav_item[label] %}
             {% assign is_active = false %}
             {% if page.url == path or page.url == path | relative_url or page.permalink == path %}
               {% assign is_active = true %}
