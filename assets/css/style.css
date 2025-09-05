@@ -33,7 +33,7 @@ header .navbar {
 }
 
 .navbar nav {
-  display: block;
+  display: none;
 }
 
 .navbar nav ul {
@@ -225,6 +225,10 @@ ol li {
 }
 
 /* Stili per menu mobile */
+.navbar.active nav {
+  display: block;
+}
+
 .navbar.active nav ul {
   display: flex;
   flex-direction: column;
@@ -234,6 +238,20 @@ ol li {
   left: 0;
   width: 100%;
   padding: 10px 0;
+}
+
+/* Su desktop sempre visibile e orizzontale */
+@media (min-width: 769px) {
+  .navbar nav {
+    display: block !important;
+  }
+  .navbar nav ul {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  .nav-toggle {
+    display: none !important;
+  }
 }
 
 /* Bugfix: evita overflow orizzontale */
