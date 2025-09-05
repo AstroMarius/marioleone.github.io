@@ -205,6 +205,17 @@ ul li {
   margin-bottom: 0.5rem; /* Spazio tra gli elementi */
 }
 
+/* Miglioramento degli elenchi ordinati */
+ol {
+  margin-top: 1rem; /* Spazio sopra l'elenco ordinato */
+  margin-bottom: 1rem; /* Spazio sotto l'elenco ordinato */
+  padding-left: 1.5rem; /* Indentazione degli elementi */
+}
+
+ol li {
+  margin-bottom: 0.5rem; /* Spazio tra gli elementi */
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   header, footer {
