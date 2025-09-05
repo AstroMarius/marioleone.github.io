@@ -25,14 +25,14 @@ I design and implement low-latency architectures and real-time dashboards powere
 - Integrated **LLMs** for financial analytics, risk modeling, and sentiment analysis.  
 
 ### Data Analyst *(2010 – 2019)*
-- Conducted statistical modeling e predictive analysis per settori finanziari/industriali.  
-- Sviluppato **modelli di rischio di credito** e **sistemi di predizione del churn**.  
-- Gestito **ETL pipelines** e dataset di grandi dimensioni.  
+- Conducted statistical modeling and predictive analysis for financial/industrial sectors.  
+- Developed **credit risk models** and **churn prediction systems**.  
+- Managed **ETL pipelines** and large-scale datasets.  
 
 ### Teacher (Mathematics & Physics) *(2013 – Present)*
-- Insegnante liceale in Italia e Svizzera.  
-- Progettato curricula che collegano **matematica, fisica e informatica** con applicazioni reali.  
-- Preparazione studenti per **STEM universitari**.  
+- High school teacher in Italy and Switzerland.  
+- Designed curricula bridging **math, physics, and computer science** with real-world applications.  
+- Experienced in preparing students for **university-level STEM**.  
 
 ---
 
@@ -40,7 +40,7 @@ I design and implement low-latency architectures and real-time dashboards powere
 
 ### Programming
 - **C++**, **Python**, **TypeScript**  
-- Esperienza con **R**, **MATLAB**, **SQL**  
+- Experience with **R**, **MATLAB**, **SQL**  
 
 ### AI & Machine Learning
 - Deep Learning, LLMs, Financial ML  
@@ -48,31 +48,31 @@ I design and implement low-latency architectures and real-time dashboards powere
 - Frameworks: PyTorch, Hugging Face, TensorFlow  
 
 ### Systems & Infrastructure
-- Architetture HFT (High-Frequency Trading)  
-- Design a bassa latenza, sistemi distribuiti  
+- High-Frequency Trading (HFT) architectures  
+- Low-latency design, distributed systems  
 - Docker, GitHub Actions, Linux (Arch)  
 
 ---
 
 ## 🎓 Education
 - **M.Sc. in Physics** – University of Milan  
-- Formazione aggiuntiva in Data Science, AI e Financial Engineering  
+- Additional training in Data Science, AI, and Financial Engineering  
 
 ---
 
 ## 📄 Publications & Projects
-- [⚡ MultiAgentHFT](/projects/multiagenthft) – Sistema multi-agente per trading ad alta frequenza  
-- [📈 FinLLM](/projects/finllm) – LLM per analisi finanziaria  
+- [⚡ MultiAgentHFT](../projects/multiagenthft) – Multi-agent system for high-frequency trading  
+- [📈 FinLLM](../projects/finllm) – LLMs for financial analytics  
 
 ---
 
 ## 🌍 Languages
-- Italiano (madrelingua)  
-- Inglese (fluente)  
-- Francese (base)  
+- Italian (native)  
+- English (fluent)  
+- French (basic)  
 
 ---
 
 ## 📌 Interests
-- Mercati finanziari, sistemi AI, innovazione didattica  
-- Sviluppo open-source e condivisione della conoscenza
+- Financial markets, AI systems, teaching innovation  
+- Open-source development and knowledge sharing  

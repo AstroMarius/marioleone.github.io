@@ -34,10 +34,4 @@ footer-links:
 # Appearance
 darkmode: true
 
-# Collections
-collections:
-  # Collezione 'projects' non usata per listing; detagli via _pages/projects.md
-  projects:
-    output: true
-    permalink: /projects/:name/
 
