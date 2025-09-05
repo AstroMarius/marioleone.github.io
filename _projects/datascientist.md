@@ -1,4 +1,7 @@
 ---
+layout: page
+title: "Predictive Analytics with Machine Learning"
+permalink: /projects/datascientist/
 ---
 
 <!-- markdownlint-disable MD025 MD022 MD032 -->
