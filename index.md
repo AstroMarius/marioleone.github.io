@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: Mario Leone
-subtitle: AI Engineer • C++/Python • Trading Systems • ML/LLM
+subtitle: AI Engineer 
 
 profile:
   align: 
@@ -19,19 +19,29 @@ social: true
 
 Experienced AI Engineer specializing in algorithmic trading systems and machine learning applications. 
 
-## Technical Focus
-- **Languages**: C++, Python, TypeScript
-- **AI/ML**: Large Language Models, Deep Learning, Financial ML
-- **Systems**: High-frequency trading, Real-time data processing
-- **Tools**: TensorFlow, PyTorch, Docker, Kubernetes
+## Skills
 
-## Current Work
-Building intelligent trading systems that leverage machine learning for market analysis and automated decision-making.
+### Programming Languages
+Advanced proficiency in **C++**, **Python**, and **TypeScript**, with additional experience in **R**, **MATLAB**, and **SQL**, applied to both academic and financial/industrial contexts.
 
-## Contact {#contact}
+### Artificial Intelligence / Machine Learning
+Strong expertise in **Large Language Models (LLMs)**, **Deep Learning**, and **Financial Machine Learning**, with practical applications in **churn prediction**, **credit risk modeling**, **time-series forecasting**, and **complex data analysis**.
 
-Ready to collaborate on innovative projects? Let's connect and explore opportunities in AI, machine learning, and algorithmic trading.
+### Systems & Infrastructure
+Specialized in **high-frequency trading (HFT)** architectures and **real-time data processing pipelines**, ensuring low-latency execution and reliability in production environments.
 
+### Tools & Frameworks
+Solid background with **TensorFlow**, **PyTorch**, **Scikit-learn**, and **Pandas** for AI development; **Docker**, **Kubernetes**, **Jenkins**, **AWS**, and **Azure** for cloud-native deployment and orchestration.
+
+### Professional Strengths
+- Strong problem-solving skills  
+- Ability to translate business requirements into technical solutions  
+- Quantitative analysis and project management  
+- Effective communication in cross-functional teams  
+
+---
+
+## Links
 - **Email**: Available via LinkedIn
 - **LinkedIn**: [mario-leone-dev](https://linkedin.com/in/mario-leone-dev)
 - **GitHub**: [AstroMarius](https://github.com/AstroMarius)
