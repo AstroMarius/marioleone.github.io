@@ -4,6 +4,8 @@ title: Projects
 permalink: /projects/
 ---
 
+<!-- markdownlint-disable MD033 -->
+
 # 🚀 Projects
 
 A growing collection of my cool projects.
@@ -30,3 +32,5 @@ A growing collection of my cool projects.
     <a href="/projects/backtesting-engine" class="project-link">Learn more</a>
   </div>
 </div>
+
+<!-- markdownlint-enable MD033 -->
