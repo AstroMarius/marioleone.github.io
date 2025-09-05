@@ -7,7 +7,9 @@
 
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
-        {% for label, path in site.navbar-links %}
+        {% for nav_item in site.navbar-links %}
+          {% assign label = nav_item | keys | first %}
+          {% assign path = nav_item[label] %}
           {% assign current_path = page.url | default: page.path | prepend: '/' %}
           <li class="nav-item">
             <a class="nav-link{% if current_path == path or page.url == path or page.url == path | relative_url %} active{% endif %}" href="{{ path | relative_url }}"{% if current_path == path or page.url == path or page.url == path | relative_url %} aria-current="page"{% endif %}>{{ label }}</a>
