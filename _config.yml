@@ -1,10 +1,10 @@
-title: Mario Leone — AI Engineer
-description: C++/Python • Trading Systems • ML/LLM
+title: "Mario Leone — AI Engineer"
+description: "C++/Python • Trading Systems • ML/LLM"
 url: "https://portfolio.leoneconsulting.dev"
 baseurl: ""
 
 # Theme
-remote_theme: 'alshedivat/al-folio'
+remote_theme: "AstroMarius/al-folio"
 
 # plugins
 plugins:
