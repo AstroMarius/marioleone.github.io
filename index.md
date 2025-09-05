@@ -16,8 +16,6 @@ news: false
 selected_papers: false
 social: true
 ---
-<!-- Include il file CSS per lo stile -->
-<link rel="stylesheet" href="assets/css/style.css">
 
 Experienced **AI Engineer** with a strong background in **algorithmic trading systems** and **machine learning applications**.  
 
