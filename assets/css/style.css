@@ -126,7 +126,7 @@ footer {
   max-height: 100px; /* Increased the maximum height */
   height: auto;
   width: auto;
-  max-width: 200px; /* Increased the maximum width */
+  max-width: 230px; /* Increased the maximum width */
   object-fit: contain;
 }
 
