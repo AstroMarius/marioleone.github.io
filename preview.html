@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Mario Leone - Preview</title>
+  <style>
+/* Main stylesheet for vendorizzato al-folio theme adaptation */
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+  background-color: #007acc;
+  color: #fff;
+  padding: 20px;
+}
+
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+  background: #007acc;
+  padding: 10px 0;
+}
+
+.navbar nav {
+  display: block;
+}
+
+.navbar nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.navbar nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar li a:hover {
+  color: #ffcc00;
+}
+
+.main-content {
+  margin-top: 20px;
+}
+
+/* Profile Section */
+.profile-section {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  margin: 40px 0;
+}
+
+.profile-image img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.profile-image img.circular {
+  border-radius: 50%;
+}
+
+.profile-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #007acc;
+}
+
+.profile-content .subtitle {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.address {
+  color: #888;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Additional styles to adapt the al-folio layout */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  header, footer {
+    text-align: center;
+  }
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .profile-section {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Added adaptation for mobile navigation and logo styling */
+.logo-img {
+  max-height: 50px;
+}
+
+.nav-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none; /* hidden by default; shown on small screens */
+}
+
+.hamburger {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  display: block;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  transition: transform 0.3s ease;
+}
+
+.hamburger::before {
+  top: -8px;
+}
+
+.hamburger::after {
+  top: 8px;
+}
+
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: block;
+  }
+
+  /* Optional: adjust navbar layout for mobile */
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Add smooth transition for navigation links */
+.navbar li a {
+  transition: color 0.3s ease;
+}
+
+.navbar li a:hover {
+  color: #ffcc00;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="/">
+            <img class="logo-img" src="/assets/img/logo.png" alt="Logo">
+          </a>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/projects/">Projects</a></li>
+            <li><a href="/assets/cv.pdf">CV</a></li>
+            <li><a href="/#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  
+  <main class="main-content">
+    <div class="container">
+      <div class="profile-section">
+        <div class="profile-image">
+          <img src="/assets/img/FotoMarioLeone_420.jpg" 
+               alt="Mario Leone" 
+               style="width: 150px;">
+        </div>
+        
+        <div class="profile-content">
+          <h1>Mario Leone</h1>
+          <p class="subtitle">AI Engineer • C++/Python • Trading Systems • ML/LLM</p>
+          
+          <div class="address">
+            <p>Milan, Italy</p>
+          </div>
+          
+          <div class="content">
+            <p>Experienced AI Engineer specializing in algorithmic trading systems and machine learning applications.</p>
+
+            <h2>Technical Focus</h2>
+            <ul>
+              <li><strong>Languages</strong>: C++, Python, TypeScript</li>
+              <li><strong>AI/ML</strong>: Large Language Models, Deep Learning, Financial ML</li>
+              <li><strong>Systems</strong>: High-frequency trading, Real-time data processing</li>
+              <li><strong>Tools</strong>: TensorFlow, PyTorch, Docker, Kubernetes</li>
+            </ul>
+
+            <h2>Current Work</h2>
+            <p>Building intelligent trading systems that leverage machine learning for market analysis and automated decision-making.</p>
+
+            <h2 id="contact">Contact</h2>
+            <p>Ready to collaborate on innovative projects? Let's connect and explore opportunities in AI, machine learning, and algorithmic trading.</p>
+            <ul>
+              <li><strong>Email</strong>: Available via LinkedIn</li>
+              <li><strong>LinkedIn</strong>: <a href="https://linkedin.com/in/mario-leone-dev">mario-leone-dev</a></li>
+              <li><strong>GitHub</strong>: <a href="https://github.com/AstroMarius">AstroMarius</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Mario Leone. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

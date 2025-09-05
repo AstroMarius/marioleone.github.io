@@ -1,0 +1,25 @@
+<header>
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <a href="{{ '/' | relative_url }}">
+          {% if site.logo %}
+            <img class="logo-img" src="{{ site.logo | relative_url }}" alt="{{ site.title }} Logo">
+          {% else %}
+            <span class="logo-text">{{ site.title }}</span>
+          {% endif %}
+        </a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav>
+        <ul>{%- for item in site.navbar-links -%}
+          <li><a href="{{ item[1] | relative_url }}">{{ item[0] }}</a></li>{%- endfor -%}
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script src="/assets/js/main.js"></script>
+</header>
