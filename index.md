@@ -6,7 +6,7 @@ subtitle: AI Engineer • C++/Python • Trading Systems • ML/LLM
 
 profile:
   align: left
-  image: FotoMarioLeone.jpg
+  image: FotoMarioLeone.png
   image_circular: false
   address: >
     <p>Milan, Italy</p>
