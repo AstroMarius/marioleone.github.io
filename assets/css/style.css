@@ -188,6 +188,12 @@ h3 {
   margin-bottom: 1rem; /* Spazio sotto il titolo */
 }
 
+/* Gestione dello spazio tra le linee --- */
+hr {
+  margin-top: 2rem; /* Spazio sopra la linea */
+  margin-bottom: 2rem; /* Spazio sotto la linea */
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   header, footer {
