@@ -8,9 +8,9 @@ profile:
   align: right
   image: FotoMarioLeone.jpg
   image_circular: false
-  style: "width: 150px;" # Rimpicciolisco la fotografia
+  style: "width: 150px" # Rimpicciolisco la fotografia
   address: >
-    <p>Lugano, Switzerland</p>
+    <p>Milan, Italy</p>
 
 news: false
 selected_papers: false
