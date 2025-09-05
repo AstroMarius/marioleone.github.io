@@ -13,13 +13,10 @@
 
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
-          {% for nav_item in site.navbar-links %}
-            {% assign label = nav_item[0] %}
-            {% assign path  = nav_item[1] %}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ path | relative_url }}">{{ label }}</a>
-            </li>
-          {% endfor %}
+          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="/projects/">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="/assets/cv.pdf">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="/#contact">Contact</a></li>
         </ul>
       </div>
     </div>
