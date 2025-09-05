@@ -24,7 +24,7 @@ navbar-links:
   - ["Home", "/"]
   - ["Projects", "/projects/"]
   - ["CV", "/cv/"]
-  - ["Contact", "/#contact"]
+  - ["Contact", "/contact/"]
 
 # Footer links
 footer-links:

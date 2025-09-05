@@ -69,11 +69,3 @@ Proficient with **Docker**, **Kubernetes**, **Jenkins**, **AWS**, and **Azure** 
   - **Scalable backend** with **Docker, Kubernetes, and ClickHouse** for real-time data storage and analytics  
 
 This project bridges **cutting-edge AI** with **HFT infrastructure**, aiming to deliver both **speed** and **intelligence** in financial decision-making.  
-
----
-
-## 📬 Contact Me {#contact}  
-
-- **Email**: [mario@example.com](mailto:mario@example.com){:target="_blank" rel="noopener"}  
-- **LinkedIn**: [mario-leone-dev](https://linkedin.com/in/mario-leone-dev){:target="_blank" rel="noopener"}  
-- **GitHub**: [AstroMarius](https://github.com/AstroMarius){:target="_blank" rel="noopener"}
