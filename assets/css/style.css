@@ -203,6 +203,7 @@ ul {
 
 ul li {
   margin-bottom: 0.5rem; /* Spazio tra gli elementi */
+  padding-left: 1rem; /* Aggiunto ulteriore rientro per gli elementi della lista */
 }
 
 /* Miglioramento degli elenchi ordinati */
