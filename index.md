@@ -27,3 +27,11 @@ Experienced AI Engineer specializing in algorithmic trading systems and machine 
 
 ## Current Work
 Building intelligent trading systems that leverage machine learning for market analysis and automated decision-making.
+
+## Contact {#contact}
+
+Ready to collaborate on innovative projects? Let's connect and explore opportunities in AI, machine learning, and algorithmic trading.
+
+- **Email**: Available via LinkedIn
+- **LinkedIn**: [mario-leone-dev](https://linkedin.com/in/mario-leone-dev)
+- **GitHub**: [AstroMarius](https://github.com/AstroMarius)
