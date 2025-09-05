@@ -1,4 +1,4 @@
-----
+---
 layout: about
 permalink: /
 title: Mario Leone
