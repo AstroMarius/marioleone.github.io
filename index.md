@@ -10,7 +10,7 @@ profile:
   image_circular: false
   style: "width: 150px" # Rimpicciolisco la fotografia
   address: >
-    <p>Milan, Italy</p>
+    <p>Lugano, Switzerland</p>
 
 news: false
 selected_papers: false
