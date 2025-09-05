@@ -123,10 +123,10 @@ footer {
 
 /* Added adaptation for mobile navigation and logo styling */
 .logo-img {
-  max-height: 200px; /* Doubled the maximum height */
+  max-height: 140px; /* Doubled the maximum height */
   height: auto;
   width: auto;
-  max-width: 460px; /* Doubled the maximum width */
+  max-width: 320px; /* Doubled the maximum width */
   object-fit: contain;
 }
 
