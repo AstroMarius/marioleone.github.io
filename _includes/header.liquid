@@ -51,7 +51,7 @@
             {% if label == nil or label == '' %}
               {% comment %}nav_item is a plain string (the key) when navbar-links is a map{% endcomment %}
               {% assign label = nav_item %}
-              {% assign path = site.navbar-links[nav_item] %}
+              {% assign path = site['navbar-links'][nav_item] %}
             {% else %}
               {% assign path = nav_item[label] %}
             {% endif %}
