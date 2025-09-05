@@ -6,7 +6,7 @@ subtitle: AI Engineer • C++/Python • Trading Systems • ML/LLM
 
 profile:
   align: right
-  image: FotoMarioLeone.jpg
+  image: FotoMarioLeone_900.jpg
   image_circular: false
   style: "width: 150px" # Rimpicciolisco la fotografia
   address: >
