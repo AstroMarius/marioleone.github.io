@@ -194,6 +194,17 @@ hr {
   margin-bottom: 2rem; /* Spazio sotto la linea */
 }
 
+/* Miglioramento degli elenchi puntati */
+ul {
+  margin-top: 1rem; /* Spazio sopra l'elenco */
+  margin-bottom: 1rem; /* Spazio sotto l'elenco */
+  padding-left: 1.5rem; /* Indentazione degli elementi */
+}
+
+ul li {
+  margin-bottom: 0.5rem; /* Spazio tra gli elementi */
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   header, footer {
