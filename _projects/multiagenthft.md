@@ -27,3 +27,37 @@ Built with a hybrid **C++/Python architecture**, the platform integrates seamles
 
 ## 🔹 Outcome
 A resilient foundation for **algorithmic trading strategies**, **backtesting**, and **AI-driven decision-making** in production.
+
+## 🔹 Consolidated Projects
+
+### 📊 AI Dashboards
+
+**Interactive dashboards for financial insights and education.**
+
+- **Focus**: developer-friendly UX, automated alerting and reporting  
+- **Stack**: React 18, FastAPI, Tailwind, ClickHouse  
+- **Outcome**: real-time visualization of signals, strategies, and logs
+
+### 📈 Backtesting Engine
+
+**A simulation environment for quantitative finance strategies.**
+
+- **Focus**: reproducibility, performance metrics, visualization  
+- **Stack**: Python, Pandas, Numpy, Matplotlib  
+- **Outcome**: faster prototyping and validation of trading strategies
+
+### 🤖 LLM Tooling
+
+**Generative AI tools to support developers.**
+
+- **Focus**: code-assist, automated documentation, productivity enhancement  
+- **Stack**: OpenAI API, Copilot, GitHub Actions  
+- **Outcome**: seamless integration of LLMs into CI/CD workflows
+
+### 📡 Market Data API
+
+**Resilient, low-latency market data acquisition system.**
+
+- **Focus**: real-time processing, error recovery, API reliability  
+- **Stack**: C++, WebSockets, REST, IBKR API  
+- **Outcome**: stable feed for downstream ML pipelines
