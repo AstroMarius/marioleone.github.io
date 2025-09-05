@@ -5,7 +5,7 @@ title: Mario Leone
 subtitle: AI Engineer • C++/Python • Trading Systems • ML/LLM
 
 profile:
-  align: right
+  align: left
   image: FotoMarioLeone.jpg
   image_circular: false
   address: >
