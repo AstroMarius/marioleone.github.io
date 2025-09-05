@@ -123,7 +123,22 @@ footer {
 
 /* Added adaptation for mobile navigation and logo styling */
 .logo-img {
-  max-height: 50px;
+  max-height: 40px;
+  height: auto;
+  width: auto;
+  max-width: 150px;
+  object-fit: contain;
+}
+
+.logo-text {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo a {
+  text-decoration: none;
 }
 
 .nav-toggle {

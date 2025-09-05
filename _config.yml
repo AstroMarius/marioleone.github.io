@@ -3,6 +3,9 @@ description: "C++/Python • Trading Systems • ML/LLM"
 url: "https://portfolio.leoneconsulting.dev"
 baseurl: ""
 
+# Logo
+logo: "/assets/img/logo.png"
+
 # Theme
 # Vendorizzato theme al-folio; remote_theme removed
 

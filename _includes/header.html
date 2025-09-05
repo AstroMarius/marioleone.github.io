@@ -4,10 +4,9 @@
       <div class="logo">
         <a href="{{ '/' | relative_url }}">
           {% if site.logo %}
-            <img class="logo-img" src="{{ site.logo }}" alt="Logo">
+            <img class="logo-img" src="{{ site.logo | relative_url }}" alt="{{ site.title }} Logo">
           {% else %}
-            <!-- Fallback logo; replace with your own if needed -->
-            <img class="logo-img" src="/assets/img/logo.png" alt="Logo">
+            <span class="logo-text">{{ site.title }}</span>
           {% endif %}
         </a>
       </div>
