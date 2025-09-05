@@ -34,17 +34,16 @@
           {% endfor %}
 
           {% for nav_item in site.navbar-links %}
-            {% for label in nav_item %}
-              {% assign path = nav_item[label] %}
-              {% assign is_active = false %}
-              {% if page.url == path or page.url == path | relative_url or page.permalink == path %}
-                {% assign is_active = true %}
-              {% endif %}
-              <li class="nav-item{% if is_active %} active{% endif %}">
-                <a class="nav-link" href="{{ path | relative_url }}">{{ label }}{% if is_active %}
-                  <span class="sr-only">(current)</span>{% endif %}</a>
-              </li>
-            {% endfor %}
+            {% assign label = nav_item | keys | first %}
+            {% assign path = nav_item[label] %}
+            {% assign is_active = false %}
+            {% if page.url == path or page.url == path | relative_url or page.permalink == path %}
+              {% assign is_active = true %}
+            {% endif %}
+            <li class="nav-item{% if is_active %} active{% endif %}">
+              <a class="nav-link" href="{{ path | relative_url }}">{{ label }}{% if is_active %}
+                <span class="sr-only">(current)</span>{% endif %}</a>
+            </li>
           {% endfor %}
 
           {% if site.search_enabled %}
