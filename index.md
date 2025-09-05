@@ -42,7 +42,7 @@ Expertise in **Large Language Models (LLMs)**, **Deep Learning**, and **Financia
 
 ### Systems & Infrastructure  
 
-Specialized in **high-frequency trading (HFT)** architectures and **real-time data processing pipelines**, ensuring **low-latency execution**, **scalability**, and **production reliability**.  
+Specialized in high-performance architectures and real-time data processing pipelines, ensuring low-latency execution, scalability, and production reliability.
 
 ### Tools & Frameworks  
 
