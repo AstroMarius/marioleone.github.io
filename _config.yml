@@ -4,20 +4,15 @@ url: "https://portfolio.leoneconsulting.dev"
 baseurl: ""
 
 # Theme
-remote_theme: "AstroMarius/al-folio"
+# Vendorizzato theme al-folio; remote_theme removed
 
-
-# -----------------------------------------------------------------------------
 # Layout
-# -----------------------------------------------------------------------------
-
 navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
 posts_in_search: true
 bib_search: true
-
 
 # plugins
 plugins:
@@ -40,7 +35,7 @@ footer-links:
   linkedin: "https://linkedin.com/in/mario-leone-dev"
 
 # Appearance
-darkmode: true
+    darkmode: true
 
 # Collections
 collections:

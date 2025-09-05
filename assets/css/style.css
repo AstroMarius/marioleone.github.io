@@ -1,0 +1,118 @@
+/* Main stylesheet for vendorizzato al-folio theme adaptation */
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  background-color: #007acc;
+  color: #fff;
+  padding: 20px;
+}
+
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar li a:hover {
+  color: #ffcc00;
+}
+
+.main-content {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Additional styles to adapt the al-folio layout */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Added adaptation for mobile navigation and logo styling */
+.logo-img {
+  max-height: 50px;
+}
+
+.nav-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none; /* hidden by default; shown on small screens */
+}
+
+.hamburger {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  display: block;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  transition: transform 0.3s ease;
+}
+
+.hamburger::before {
+  top: -8px;
+}
+
+.hamburger::after {
+  top: 8px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  header, footer {
+    text-align: center;
+  }
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .nav-toggle {
+    display: block;
+  }
+}

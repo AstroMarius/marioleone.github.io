@@ -1,24 +1,26 @@
 <header>
-  <nav id="navbar" class="navbar navbar-expand-sm sticky-top navbar-light bg-light" role="navigation">
-    <div class="container">
-      <a class="navbar-brand title font-weight-lighter" href="/">{{ site.title | default: site.name }}</a>
-
-      <!-- Navbar Toggle -->
-      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar top-bar"></span>
-        <span class="icon-bar middle-bar"></span>
-        <span class="icon-bar bottom-bar"></span>
-      </button>
-
-      <div class="collapse navbar-collapse text-right" id="navbarNav">
-        <ul class="navbar-nav ml-auto flex-nowrap">
-          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="/projects/">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="/assets/cv.pdf">CV</a></li>
-          <li class="nav-item"><a class="nav-link" href="/#contact">Contact</a></li>
-        </ul>
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <a href="{{ '/' | relative_url }}">
+          {% if site.logo %}
+            <img class="logo-img" src="{{ site.logo }}" alt="Logo">
+          {% else %}
+            <!-- Fallback logo; replace with your own if needed -->
+            <img class="logo-img" src="/assets/img/logo.png" alt="Logo">
+          {% endif %}
+        </a>
       </div>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav>
+        <ul>{%- for item in site.navbar-links -%}
+          <li><a href="{{ item[1] | relative_url }}">{{ item[0] }}</a></li>{%- endfor -%}
+        </ul>
+      </nav>
     </div>
-  </nav>
+  </div>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script src="/assets/js/main.js"></script>
 </header>
