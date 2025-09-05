@@ -217,10 +217,44 @@ ol li {
   margin-bottom: 0.5rem; /* Spazio tra gli elementi */
 }
 
-/* Responsive design */
+/* Progetti grid responsive */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Stili per menu mobile */
+.navbar.active nav ul {
+  display: flex;
+  flex-direction: column;
+  background: #007acc;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+/* Bugfix: evita overflow orizzontale */
+body, html {
+  overflow-x: hidden;
+}
+
+/* Responsive adjustments */
 @media (max-width: 768px) {
   header, footer {
     text-align: center;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  .profile-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-content h1 {
+    font-size: 2em;
   }
   .navbar ul {
     flex-direction: column;
@@ -228,5 +262,11 @@ ol li {
   }
   .nav-toggle {
     display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 10px;
   }
 }

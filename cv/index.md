@@ -7,7 +7,7 @@ permalink: /cv/
 # Mario Leone  
 
 **AI Engineer | Data Scientist | Teacher**  
-[GitHub](https://github.com/AstroMarius) · [LinkedIn](https://linkedin.com/in/marioleone) · [Email](mailto:mario@example.com)
+[GitHub](https://github.com/AstroMarius){:target="_blank" rel="noopener"} · [LinkedIn](https://linkedin.com/in/marioleone){:target="_blank" rel="noopener"} · [Email](mailto:mario@example.com){:target="_blank" rel="noopener"}
 
 ---
 
@@ -75,4 +75,4 @@ I design and implement low-latency architectures and real-time dashboards powere
 
 ## 📌 Interests
 - Financial markets, AI systems, teaching innovation  
-- Open-source development and knowledge sharing  
+- Open-source development and knowledge sharing
