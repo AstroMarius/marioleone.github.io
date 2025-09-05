@@ -1,0 +1,27 @@
+title: Mario Leone — AI Engineer
+description: C++/Python • Trading Systems • ML/LLM
+url: "https://portfolio.leoneconsulting.dev"
+baseurl: ""
+
+remote_theme: alshedivat/al-folio
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+
+navbar-links:
+  Home: "/"
+  Projects: "/projects/"
+  CV: "/assets/cv.pdf"
+  Contact: "/#contact"
+
+footer-links:
+  github: "https://github.com/AstroMarius"
+  linkedin: "https://linkedin.com/in/mario-leone-dev"
+
+darkmode: true
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
