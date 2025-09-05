@@ -23,7 +23,7 @@ navbar-links:
   # Use sequence of [label, path] pairs for simpler iteration
   - ["Home", "/"]
   - ["Projects", "/projects/"]
-  - ["CV", "/assets/cv.pdf"]
+  - ["CV", "/cv/"]
   - ["Contact", "/#contact"]
 
 # Footer links
