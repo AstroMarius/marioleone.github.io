@@ -6,6 +6,19 @@ baseurl: ""
 # Theme
 remote_theme: "AstroMarius/al-folio"
 
+
+# -----------------------------------------------------------------------------
+# Layout
+# -----------------------------------------------------------------------------
+
+navbar_fixed: true
+footer_fixed: true
+search_enabled: true
+socials_in_search: true
+posts_in_search: true
+bib_search: true
+
+
 # plugins
 plugins:
   - jekyll-remote-theme
@@ -35,13 +48,3 @@ collections:
     output: true
     permalink: /projects/:name/
 
-# -----------------------------------------------------------------------------
-# Layout
-# -----------------------------------------------------------------------------
-
-navbar_fixed: true
-footer_fixed: true
-search_enabled: true
-socials_in_search: true
-posts_in_search: true
-bib_search: true
