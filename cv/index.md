@@ -55,7 +55,7 @@ I design and implement low-latency architectures and real-time dashboards powere
 ---
 
 ## 🎓 Education
-- **M.Sc. in Physics** – University of Milan  
+- **M.Sc. in Astrophysics** – University of Padua  
 - Additional training in Data Science, AI, and Financial Engineering  
 
 ---
