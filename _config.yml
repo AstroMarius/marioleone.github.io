@@ -13,12 +13,12 @@ plugins:
   - jekyll-sitemap
   - jekyll-scholar
 
-# Navbar links
+# Navbar links (array of single-key maps; preferred for Liquid iterations)
 navbar-links:
-  Home: "/"
-  Projects: "/projects/"
-  CV: "/assets/cv.pdf"
-  Contact: "/#contact"
+  - Home: "/"
+  - Projects: "/projects/"
+  - CV: "/assets/cv.pdf"
+  - Contact: "/#contact"
 
 # Footer links
 footer-links:
