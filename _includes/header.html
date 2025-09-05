@@ -1,0 +1,27 @@
+<header>
+  <nav id="navbar" class="navbar navbar-expand-sm sticky-top navbar-light bg-light" role="navigation">
+    <div class="container">
+      <a class="navbar-brand title font-weight-lighter" href="/">{{ site.title | default: site.name }}</a>
+
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          {% for nav_item in site.navbar-links %}
+            {% assign label = nav_item | keys | first %}
+            {% assign path = nav_item[label] %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ path | relative_url }}">{{ label }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
