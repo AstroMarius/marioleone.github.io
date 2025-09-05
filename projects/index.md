@@ -1,16 +1,21 @@
 ---
 layout: page
+title: Projects
 permalink: /projects/
-title: "Projects"
-description: "My software development projects and contributions."
 ---
+
+<!-- markdownlint-disable MD033 -->
 
 # 🚀 Projects
 
-Explore a selection of my projects in **AI engineering**, **data pipelines**, and **trading systems**.
+Explore the consolidated project: **MultiAgentHFT**.
 
-- [⚡ MultiAgentHFT](/projects/multiagenthft)  
-- [📊 AI Dashboards](/projects/ai-dashboards)  
-- [🤖 LLM Tooling](/projects/llm-tooling)  
-- [📡 Market Data API](/projects/market-data-api)  
-- [📈 Backtesting Engine](/projects/backtesting-engine)  
+<div class="projects-grid">
+  <div class="project-card" style="background-image: url('/assets/images/project1.jpg');">
+    <h3>⚡ MultiAgentHFT</h3>
+    <p>A multi-agent system for high-frequency trading, integrating AI dashboards, backtesting engines, LLM tooling, and market data APIs.</p>
+    <a href="/projects/multiagenthft" class="project-link">Learn more</a>
+  </div>
+</div>
+
+<!-- markdownlint-enable MD033 -->
