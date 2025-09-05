@@ -9,17 +9,11 @@ baseurl: ""
 # Layout
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
-socials_in_search: true
-posts_in_search: true
-bib_search: true
 
 # plugins
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-scholar
 
 # Navbar links (array of single-key maps; preferred for Liquid iterations)
 navbar-links:
@@ -35,7 +29,7 @@ footer-links:
   linkedin: "https://linkedin.com/in/mario-leone-dev"
 
 # Appearance
-    darkmode: true
+darkmode: true
 
 # Collections
 collections:

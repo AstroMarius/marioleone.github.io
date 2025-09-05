@@ -1,24 +1,32 @@
-{% capture page_title %}{{ page.title | default: site.title }}{% endcapture %}
-{% assign page_description = page.description | default: site.description %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  {% include header.html %}
 
-{% include head.html %}
+  <main class="main-content">
+    <div class="container">
+      <article class="page">
+        <header class="page-header">
+          <h1 class="page-title">{{ page.title }}</h1>
+          {% if page.description %}
+            <p class="page-description">{{ page.description }}</p>
+          {% endif %}
+        </header>
 
-{% include header.html %}
+        <section class="page-content">
+          {{ content }}
+        </section>
+      </article>
+    </div>
+  </main>
 
-<main id="content" class="content">
-  <article class="page">
-    <header class="page-header">
-      <h1 class="page-title">{{ page.title }}</h1>
-      {% if page.description %}
-        <p class="page-description">{{ page.description }}</p>
-      {% endif %}
-    </header>
-
-    <section class="page-content">
-      {{ content }}
-    </section>
-  </article>
-</main>
-
-{% include footer.html %}
-{% include scripts.html %}
+  <footer>
+    <div class="container">
+      <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
