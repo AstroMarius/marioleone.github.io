@@ -15,10 +15,11 @@ plugins:
 
 # Navbar links (array of single-key maps; preferred for Liquid iterations)
 navbar-links:
-  - Home: "/"
-  - Projects: "/projects/"
-  - CV: "/assets/cv.pdf"
-  - Contact: "/#contact"
+  # Use sequence of [label, path] pairs for simpler iteration
+  - ["Home", "/"]
+  - ["Projects", "/projects/"]
+  - ["CV", "/assets/cv.pdf"]
+  - ["Contact", "/#contact"]
 
 # Footer links
 footer-links:
