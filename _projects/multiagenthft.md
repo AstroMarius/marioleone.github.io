@@ -6,16 +6,6 @@ permalink: /projects/multiagenthft/
 
 # ⚡ MultiAgentHFT
 
-**A multi-agent system for high-frequency trading.**  
-Built with a hybrid **C++/Python architecture**, the platform integrates seamlessly with the **IBKR API** and **ClickHouse**, processing millions of market events per second with sub-millisecond latency.  
----
-layout: page
-title: MultiAgentHFT
-permalink: /projects/multiagenthft/
----
-
-# ⚡ MultiAgentHFT
-
 **A multi-agent system for high-frequency trading.**
 Built with a hybrid **C++/Python architecture**, the platform integrates seamlessly with the **IBKR API** and **ClickHouse**, processing millions of market events per second with sub-millisecond latency.
 
