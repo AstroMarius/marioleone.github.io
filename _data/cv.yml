@@ -1,9 +1,10 @@
-personalInfo:
+profile:
   name: Mario Leone
-  label: AI Engineer | Data Scientist | Teacher
-  email: mleone12@gmail.com
-  url: https://github.com/AstroMarius/
-  summary: |
+  title: AI Engineer | Data Scientist | Teacher
+  contact:
+    email: mleone12@gmail.com
+    website: https://github.com/AstroMarius/
+  description: |
     Experienced AI Engineer with a strong background in algorithmic trading systems, machine learning, and data-driven applications. 
     I design and implement low-latency architectures and real-time dashboards powered by intelligent agents, combining C++ performance with Python-based AI models.
   work:
