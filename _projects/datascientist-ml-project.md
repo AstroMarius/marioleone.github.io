@@ -1,7 +1,8 @@
 ---
+---
 layout: project
 title: "Data Scientist ML Project"
-permalink: /projects/datascientist/
+permalink: /projects/datascientist-ml-project/
 ---
 
 ## Data Scientist ML Project
