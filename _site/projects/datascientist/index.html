@@ -1,9 +1,48 @@
-<hr />
-<p>layout: project
-title: “Predictive Analytics with Machine Learning”
-permalink: /projects/datascientist/
-<!-- Include per evidenziazione codice usato solo in pagine progetto specifiche -->
-<!-- Prism.js CSS --></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Predictive Analytics with Machine Learning - Mario Leone</title>
+<meta name="description" content="C++/Python • Trading Systems • ML/LLM">
+<link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+<body>
+  <header>
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <a href="/">
+          
+            <img class="logo-img" src="/assets/img/logo.png" alt="Mario Leone Logo">
+          
+        </a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav>
+        <ul><li><a href="/">Home</a></li><li><a href="/projects/">Projects</a></li><li><a href="/cv/">CV</a></li><li><a href="/contact/">Contact</a></li></ul>
+      </nav>
+    </div>
+  </div>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script src="/assets/js/main.js"></script>
+</header>
+
+
+  <main class="main-content">
+    <div class="container">
+      <article class="page">
+        <header class="page-header">
+          <h1 class="page-title">Predictive Analytics with Machine Learning</h1>
+          
+        </header>
+
+        <section class="page-content">
+          <!-- Include per evidenziazione codice usato solo in pagine progetto specifiche -->
+<!-- Prism.js CSS -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
 
 <!-- Prism.js Script -->
@@ -40,6 +79,50 @@ document.addEventListener('DOMContentLoaded', function () {
 A project demonstrating how advanced <strong>machine learning techniques</strong> can be applied to financial and industrial datasets for forecasting and optimization.</p>
 
 <h2 id="-overview">🔹 Overview</h2>
+<p>The goal was to implement scalable ML workflows for <strong>churn prediction</strong>, <strong>risk modeling</strong>, and <strong>time-series forecasting</strong>, ensuring reproducibility and real-world deployment readiness.
+—
+layout: page
+title: “Predictive Analytics with Machine Learning”
+permalink: /projects/datascientist/
+—
+<!-- Include per evidenziazione codice usato solo in pagine progetto specifiche -->
+<!-- Prism.js CSS --></p>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+
+<!-- Prism.js Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+
+<link rel="stylesheet" href="/assets/css/code.css" />
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('pre').forEach(function (block) {
+    const button = document.createElement('button');
+    button.innerText = 'Copia';
+    button.className = 'copy-button';
+    block.style.position = 'relative';
+    block.appendChild(button);
+    button.addEventListener('click', function () {
+      const code = block.querySelector('code').innerText;
+      navigator.clipboard.writeText(code).then(() => {
+        button.innerText = 'Copiato!';
+        setTimeout(() => (button.innerText = 'Copia'), 2000);
+      });
+    });
+  });
+});
+</script>
+
+<!-- markdownlint-disable MD025 MD022 MD032 -->
+
+<h1 id="-predictive-analytics-with-machine-learning-1">🤖 Predictive Analytics with Machine Learning</h1>
+
+<p><strong>Leveraging data to build predictive models.</strong><br />
+A project demonstrating how advanced <strong>machine learning techniques</strong> can be applied to financial and industrial datasets for forecasting and optimization.</p>
+
+<h2 id="-overview-1">🔹 Overview</h2>
 <p>The goal was to implement scalable ML workflows for <strong>churn prediction</strong>, <strong>risk modeling</strong>, and <strong>time-series forecasting</strong>, ensuring reproducibility and real-world deployment readiness.</p>
 
 <h2 id="-focus">🔹 Focus</h2>
@@ -95,3 +178,16 @@ A project demonstrating how advanced <strong>machine learning techniques</strong
 <span class="n">preds</span> <span class="o">=</span> <span class="n">model</span><span class="p">.</span><span class="nf">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
 <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">MAE: </span><span class="si">{</span><span class="nf">mean_absolute_error</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">preds</span><span class="p">)</span><span class="si">:</span><span class="p">.</span><span class="mi">2</span><span class="n">f</span><span class="si">}</span><span class="sh">"</span><span class="p">)</span>
 </code></pre></div></div>
+
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Mario Leone. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
