@@ -2,24 +2,31 @@
   "basics": {
     "name": "Mario Leone",
     "label": "AI Engineer | Data Scientist | Teacher",
-    "email": "mario@example.com",
-    "url": "https://astroMarius.github.io",
-    "summary": "Experienced AI Engineer with a strong background in algorithmic trading systems, machine learning, and data-driven applications. I design and implement low-latency architectures and real-time dashboards powered by intelligent agents.\n"
+    "email": "mleone12@gmail.com",
+    "url": "https://github.com/AstroMarius/",
+    "summary": "Experienced AI Engineer with a strong background in algorithmic trading systems, machine learning, and data-driven applications. \nI design and implement low-latency architectures and real-time dashboards powered by intelligent agents, combining C++ performance with Python-based AI models.\n"
   },
   "work": [
     {
       "name": "Freelance",
-      "position": "AI Engineer",
+      "position": "AI Engineer · Data Scientist/Analyst · Full Stack Developer",
       "startDate": "2019",
       "endDate": "",
-      "summary": "Architected and delivered end-to-end AI solutions for algorithmic and high-frequency trading.\nDesigned and deployed AI-powered trading agents integrating reinforcement learning and deep neural networks.\nBuilt scalable real-time, low-latency data pipelines with ZeroMQ, Docker, and ClickHouse."
+      "summary": "Architected and delivered end-to-end AI solutions for algorithmic and high-frequency trading.\nDesigned and deployed AI-powered trading agents integrating reinforcement learning and deep neural networks.\nBuilt scalable real-time, low-latency data pipelines with ZeroMQ, Docker, and ClickHouse.\nDeveloped full stack applications and interactive financial dashboards (frontend React, backend Node.js/Express, SQL/NoSQL DB).\nIntegrated LLMs for financial analytics, risk assessment, sentiment analysis, and automated reporting.\nImplemented backtesting and simulation frameworks for systematic evaluation of trading strategies.\nLed multi-agent architectures combining C++ (performance) and Python (AI/ML).\nOptimized GPU workloads (CUDA, NVIDIA RTX, PyTorch/TensorFlow).\nDelivered consulting and training services on AI integration, ML pipelines, and full stack development best practices."
     },
     {
-      "name": "Various",
+      "name": "Freelance",
       "position": "Data Analyst / Scientist",
       "startDate": "2010",
       "endDate": "",
-      "summary": "Conducted statistical modeling and predictive analysis for financial and industrial sectors.\nDeveloped credit risk models, churn prediction systems, and time-series forecasting solutions."
+      "summary": "Conducted statistical modeling and predictive analysis for financial and industrial sectors.\nDeveloped credit risk models, churn prediction systems, and time-series forecasting solutions.\nDesigned and deployed machine learning workflows from preprocessing to production.\nManaged ETL pipelines and large-scale datasets ensuring quality and reproducibility.\nCollaborated with cross-functional teams to integrate AI-driven dashboards and decision support tools."
+    },
+    {
+      "name": "Public & Private Schools (IT/CH)",
+      "position": "Teacher (Mathematics & Physics)",
+      "startDate": "2013",
+      "endDate": "",
+      "summary": "Taught high school Mathematics and Physics in Italy and Switzerland.\nDesigned curricula bridging math, physics, and computer science with real-world applications.\nPrepared students for university-level STEM pathways.\nDeveloped digital resources and interactive materials using LaTeX, Zoom, and GitHub."
     }
   ],
   "education": [
@@ -36,6 +43,13 @@
       "studyType": "B.Sc.",
       "startDate": "2004",
       "endDate": "2009"
+    },
+    {
+      "institution": "Private Student (Switzerland)",
+      "area": "Swiss Maturity Diploma",
+      "studyType": "Diploma",
+      "startDate": "1999",
+      "endDate": "2002"
     }
   ],
   "languages": [
@@ -58,14 +72,16 @@
   ],
   "skills": [
     {
-      "name": "Programming",
+      "name": "Programming & Technical Skills",
       "keywords": [
         "C++",
         "Python",
         "TypeScript",
         "JavaScript",
         "R",
-        "SQL"
+        "MATLAB",
+        "SQL",
+        "C"
       ]
     },
     {
@@ -74,7 +90,54 @@
         "PyTorch",
         "TensorFlow",
         "Scikit-learn",
-        "Hugging Face"
+        "Hugging Face",
+        "Deep Learning",
+        "Reinforcement Learning",
+        "Financial ML"
+      ]
+    },
+    {
+      "name": "Data Engineering",
+      "keywords": [
+        "ETL pipelines",
+        "Data Cleaning",
+        "Data Mining",
+        "Structured & Unstructured Data",
+        "ClickHouse",
+        "ZeroMQ"
+      ]
+    },
+    {
+      "name": "Visualization",
+      "keywords": [
+        "Tableau",
+        "Power BI",
+        "Data Storytelling",
+        "Advanced Excel"
+      ]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "keywords": [
+        "AWS",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "Git",
+        "GitHub Actions",
+        "Linux (Arch)"
+      ]
+    },
+    {
+      "name": "Other Tools",
+      "keywords": [
+        "Ollama",
+        "Text-Generation-WebUI",
+        "Bash",
+        "WordPress",
+        "Adobe Illustrator",
+        "Photoshop"
       ]
     }
   ]
