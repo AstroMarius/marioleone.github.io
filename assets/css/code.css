@@ -1,0 +1,33 @@
+/* Styles specifici per blocchi di codice nei progetti */
+pre[class*="language-"] {
+  background: #2d2d2d;
+  color: #f8f8f2;
+  padding: 1em;
+  border-radius: 8px;
+  overflow: auto;
+  font-size: 0.9em;
+  line-height: 1.5;
+  position: relative;
+}
+
+code[class*="language-"] {
+  font-family: 'Fira Code', monospace;
+}
+
+.copy-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #ff79c6;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 0.75em;
+  opacity: 0.8;
+}
+
+.copy-button:hover {
+  opacity: 1;
+}
