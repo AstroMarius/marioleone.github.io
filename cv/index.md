@@ -11,15 +11,17 @@ permalink: /cv/
 
 ---
 
-## 🎯 Profile
+## Basic
+
 Experienced AI Engineer with a strong background in **algorithmic trading systems**, **machine learning**, and **data-driven applications**.  
 I design and implement **low-latency architectures** and **real-time dashboards** powered by intelligent agents, combining **C++ performance** with **Python-based AI models** to optimize execution and decision-making.  
 
 ---
 
-## 💼 Professional Experience
+## Work
 
 ### Freelance AI Engineer *(2019 – Present)*
+
 - Architected and delivered **end-to-end AI solutions** for algorithmic and high-frequency trading.  
 - Designed and deployed **AI-powered trading agents** integrating reinforcement learning and deep neural networks.  
 - Built scalable **real-time, low-latency data pipelines** with ZeroMQ, Docker, and ClickHouse.  
@@ -30,6 +32,7 @@ I design and implement **low-latency architectures** and **real-time dashboards*
 - Delivered **consulting and training services** on AI integration and ML pipelines.  
 
 ### Data Analyst/Scientist *(2010 – Present)*
+
 - Conducted statistical modeling and predictive analysis for financial and industrial sectors.  
 - Developed **credit risk models**, **churn prediction systems**, and **time-series forecasting solutions**.  
 - Designed and deployed **machine learning workflows** from data preprocessing to production.  
@@ -37,13 +40,14 @@ I design and implement **low-latency architectures** and **real-time dashboards*
 - Collaborated with cross-functional teams to integrate **AI-driven dashboards** and decision support tools.  
 
 ### Teacher (Mathematics & Physics) *(2013 – Present)*
+
 - High school teacher in Italy and Switzerland.  
 - Designed curricula bridging **mathematics, physics, and computer science** with real-world applications.  
 - Experienced in preparing students for **university-level STEM**.  
 
 ---
 
-## 🛠 Skills
+## Skills
 
 ### Programming & Technical Skills  
 
@@ -58,40 +62,57 @@ I design and implement **low-latency architectures** and **real-time dashboards*
 
 
 ### AI & Machine Learning
+
 - **Expertise:** Deep Learning, LLMs, Financial ML, Reinforcement Learning  
 - **Use cases:** Time-series forecasting, anomaly detection, risk modeling, sentiment analysis  
 - **Local Model Deployment:** Running and fine-tuning LLMs in **Ollama** (GPT-OSS, DeepSeek-Coder, GGUF quantizations) and **Text-Generation-WebUI**  
 - **Optimization:** Model quantization, GPU acceleration (CUDA, NVIDIA RTX), efficient inference pipelines for real-time applications  
 
 ### Systems & Infrastructure
+
 - High-Frequency Trading (HFT) architectures  
 - Low-latency design, distributed systems  
 - Linux (Arch), GitHub Actions, CI/CD pipelines  
 
 ---
 
-## 🎓 Education
+## Education
+
 - **M.Sc. in Astrophysics** – University of Padua (2010–2013)  
 - **B.Sc. in Astrophysics** – University of Padua (2004–2009)  
 - **Swiss Maturity Diploma** – Private student (CH, 1999–2002)  
 
 ---
 
-## 📄 Publications & Projects
+## Publications & Projects
+
 - [⚡ MultiAgentHFT](../projects/multiagenthft) – Multi-agent system for high-frequency trading  
 - [📈 FinLLM](../projects/finllm) – LLMs for financial analytics  
 - [🤖 AI Dashboards](../projects/ai-dashboards) – Intelligent dashboards for data-driven decisions  
 
 ---
 
-## 🌍 Languages
-- **Italian:** native  
-- **English:** fluent  
-- **French:** intermediate  
-- **German:** basic  
+## Languages
+
+### Native
+
+- Italian
+
+### Professional / Fluent
+
+- English
+
+### Intermediate
+
+- French
+
+### Basic
+
+- German
 
 ---
 
-## 📌 Interests
+## Interests
+
 - Financial markets, AI systems, teaching innovation  
-- Open-source development and knowledge sharing  
+- Open-source development and knowledge sharing

@@ -37,7 +37,7 @@ Delivered **scalable predictive models** that provided actionable insights and i
 
 ## Link al Codice
 
-<a href="https://github.com/AstroMarius/datascientist-ml-project" target="_blank" rel="noopener">Repository GitHub</a>
+[Repository GitHub](https://github.com/AstroMarius/datascientist-ml-project){:target="_blank" rel="noopener"}
 
 Clone (SSH): `git clone git@github.com:AstroMarius/datascientist-ml-project.git`
 
