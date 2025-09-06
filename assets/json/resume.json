@@ -1,0 +1,81 @@
+{
+  "basics": {
+    "name": "Mario Leone",
+    "label": "AI Engineer | Data Scientist | Teacher",
+    "email": "mario@example.com",
+    "url": "https://astroMarius.github.io",
+    "summary": "Experienced AI Engineer with a strong background in algorithmic trading systems, machine learning, and data-driven applications. I design and implement low-latency architectures and real-time dashboards powered by intelligent agents.\n"
+  },
+  "work": [
+    {
+      "name": "Freelance",
+      "position": "AI Engineer",
+      "startDate": "2019",
+      "endDate": "",
+      "summary": "Architected and delivered end-to-end AI solutions for algorithmic and high-frequency trading.\nDesigned and deployed AI-powered trading agents integrating reinforcement learning and deep neural networks.\nBuilt scalable real-time, low-latency data pipelines with ZeroMQ, Docker, and ClickHouse."
+    },
+    {
+      "name": "Various",
+      "position": "Data Analyst / Scientist",
+      "startDate": "2010",
+      "endDate": "",
+      "summary": "Conducted statistical modeling and predictive analysis for financial and industrial sectors.\nDeveloped credit risk models, churn prediction systems, and time-series forecasting solutions."
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Padua",
+      "area": "Astrophysics",
+      "studyType": "M.Sc.",
+      "startDate": "2010",
+      "endDate": "2013"
+    },
+    {
+      "institution": "University of Padua",
+      "area": "Astrophysics",
+      "studyType": "B.Sc.",
+      "startDate": "2004",
+      "endDate": "2009"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Italian",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "French",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "German",
+      "fluency": "Basic"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "C++",
+        "Python",
+        "TypeScript",
+        "JavaScript",
+        "R",
+        "SQL"
+      ]
+    },
+    {
+      "name": "ML & AI",
+      "keywords": [
+        "PyTorch",
+        "TensorFlow",
+        "Scikit-learn",
+        "Hugging Face"
+      ]
+    }
+  ]
+}
