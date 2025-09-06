@@ -11,10 +11,10 @@ layout: page
 title: "AI Dashboards"
 permalink: /projects/ai-dashboards/
 
-# AI Dashboards
+## Project Overview
 
 ...project content...
 
-# AI Dashboards
+## Additional Details
 
 ...project content...
