@@ -14,14 +14,6 @@ A project demonstrating how advanced **machine learning techniques** can be appl
 
 ## 🔹 Overview
 The goal was to implement scalable ML workflows for **churn prediction**, **risk modeling**, and **time-series forecasting**, ensuring reproducibility and real-world deployment readiness.
----
-layout: page
-title: "Predictive Analytics with Machine Learning"
-permalink: /projects/datascientist/
----
-{% include project-code.html %}
-
-<!-- markdownlint-disable MD025 MD022 MD032 -->
 
 ## 🔹 Focus
 - Data preprocessing and feature engineering
@@ -42,6 +34,12 @@ permalink: /projects/datascientist/
 
 ## 🔹 Outcome
 Delivered **scalable predictive models** that provided actionable insights and improved decision-making in financial and industrial contexts.
+
+## Link al Codice
+
+<a href="https://github.com/AstroMarius/datascientist-ml-project" target="_blank" rel="noopener">Repository GitHub</a>
+
+Clone (SSH): `git clone git@github.com:AstroMarius/datascientist-ml-project.git`
 
 ## 🔹 Esempio di Codice
 
