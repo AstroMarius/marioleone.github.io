@@ -25,6 +25,7 @@ Il dataset conteneva valori mancanti, outlier e serie storiche con trend non lin
 ### Analisi dei dati
 
 Abbiamo esplorato il dataset con Pandas e Matplotlib per individuare anomalie:
+
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
