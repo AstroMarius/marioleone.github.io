@@ -45,13 +45,17 @@ I design and implement **low-latency architectures** and **real-time dashboards*
 
 ## 🛠 Skills
 
-### Programming & Technical Skills
-- **Languages:** C++, Python, TypeScript, R, MATLAB, SQL, C  
-- **Libraries & Frameworks:** Pandas, NumPy, Scikit-learn, PyTorch, TensorFlow, Hugging Face  
+### Programming & Technical Skills  
+
+- **Languages:** C++, Python, TypeScript/JavaScript, R, MATLAB, SQL, C  
+- **Frontend Development:** React.js (v18), Next.js, HTML5, CSS3, Tailwind, Bootstrap  
+- **Backend Development:** Node.js, Express.js, RESTful APIs, GraphQL, Authentication (JWT, OAuth2), SQL & NoSQL Databases (PostgreSQL, MySQL, MongoDB)  
+- **Libraries & Frameworks (AI/ML):** Pandas, NumPy, Scikit-learn, PyTorch, TensorFlow, Hugging Face  
 - **Data Engineering:** ETL pipelines, Data Cleaning, Data Mining, Structured & Unstructured Data Analysis  
 - **Visualization:** Tableau, Power BI, Data Storytelling, Advanced Excel  
-- **Cloud & DevOps:** AWS, Azure, Docker, Kubernetes, Jenkins, Git  
-- **Other Tools:** Bash, WordPress, Adobe Illustrator, Photoshop  
+- **Cloud & DevOps:** AWS, Azure, Docker, Kubernetes, Jenkins, Git/GitHub/GitKraken, CI/CD pipelines  
+- **Other Tools:** Bash, Nginx, WordPress, Adobe Illustrator, Photoshop  
+
 
 ### AI & Machine Learning
 - **Expertise:** Deep Learning, LLMs, Financial ML, Reinforcement Learning  
