@@ -13,66 +13,81 @@ permalink: /cv/
 
 ## 🎯 Profile
 Experienced AI Engineer with a strong background in **algorithmic trading systems**, **machine learning**, and **data-driven applications**.  
-I design and implement low-latency architectures and real-time dashboards powered by intelligent agents, combining **C++ performance** with **Python-based AI models** to optimize execution and decision-making.  
+I design and implement **low-latency architectures** and **real-time dashboards** powered by intelligent agents, combining **C++ performance** with **Python-based AI models** to optimize execution and decision-making.  
 
 ---
 
 ## 💼 Professional Experience
 
 ### Freelance AI Engineer *(2019 – Present)*
-- Designed and deployed **AI-powered trading agents** and financial dashboards.  
-- Built scalable **real-time data pipelines** with ZeroMQ, Docker, and ClickHouse.  
-- Integrated **LLMs** for financial analytics, risk modeling, and sentiment analysis.  
+- Architected and delivered **end-to-end AI solutions** for algorithmic and high-frequency trading.  
+- Designed and deployed **AI-powered trading agents** integrating reinforcement learning and deep neural networks.  
+- Built scalable **real-time, low-latency data pipelines** with ZeroMQ, Docker, and ClickHouse.  
+- Integrated **LLMs** for financial analytics, risk assessment, sentiment analysis, and automated reporting.  
+- Implemented **backtesting and simulation frameworks** for systematic evaluation of trading strategies.  
+- Led development of **multi-agent architectures** combining C++ (performance) and Python (AI/ML).  
+- Optimized GPU workloads (NVIDIA RTX, CUDA, PyTorch/TensorFlow) for accelerated model training.  
+- Delivered **consulting and training services** on AI integration and ML pipelines.  
 
-### Data Analyst *(2010 – 2019)*
-- Conducted statistical modeling and predictive analysis for financial/industrial sectors.  
-- Developed **credit risk models** and **churn prediction systems**.  
-- Managed **ETL pipelines** and large-scale datasets.  
+### Data Analyst/Scientist *(2010 – Present)*
+- Conducted statistical modeling and predictive analysis for financial and industrial sectors.  
+- Developed **credit risk models**, **churn prediction systems**, and **time-series forecasting solutions**.  
+- Designed and deployed **machine learning workflows** from data preprocessing to production.  
+- Managed **ETL pipelines** and large-scale datasets, ensuring quality and reproducibility.  
+- Collaborated with cross-functional teams to integrate **AI-driven dashboards** and decision support tools.  
 
 ### Teacher (Mathematics & Physics) *(2013 – Present)*
 - High school teacher in Italy and Switzerland.  
-- Designed curricula bridging **math, physics, and computer science** with real-world applications.  
+- Designed curricula bridging **mathematics, physics, and computer science** with real-world applications.  
 - Experienced in preparing students for **university-level STEM**.  
 
 ---
 
 ## 🛠 Skills
 
-### Programming
-- **C++**, **Python**, **TypeScript**  
-- Experience with **R**, **MATLAB**, **SQL**  
+### Programming & Technical Skills
+- **Languages:** C++, Python, TypeScript, R, MATLAB, SQL, C  
+- **Libraries & Frameworks:** Pandas, NumPy, Scikit-learn, PyTorch, TensorFlow, Hugging Face  
+- **Data Engineering:** ETL pipelines, Data Cleaning, Data Mining, Structured & Unstructured Data Analysis  
+- **Visualization:** Tableau, Power BI, Data Storytelling, Advanced Excel  
+- **Cloud & DevOps:** AWS, Azure, Docker, Kubernetes, Jenkins, Git  
+- **Other Tools:** Bash, WordPress, Adobe Illustrator, Photoshop  
 
 ### AI & Machine Learning
-- Deep Learning, LLMs, Financial ML  
-- Time-series forecasting, anomaly detection  
-- Frameworks: PyTorch, Hugging Face, TensorFlow  
+- **Expertise:** Deep Learning, LLMs, Financial ML, Reinforcement Learning  
+- **Use cases:** Time-series forecasting, anomaly detection, risk modeling, sentiment analysis  
+- **Local Model Deployment:** Running and fine-tuning LLMs in **Ollama** (GPT-OSS, DeepSeek-Coder, GGUF quantizations) and **Text-Generation-WebUI**  
+- **Optimization:** Model quantization, GPU acceleration (CUDA, NVIDIA RTX), efficient inference pipelines for real-time applications  
 
 ### Systems & Infrastructure
 - High-Frequency Trading (HFT) architectures  
 - Low-latency design, distributed systems  
-- Docker, GitHub Actions, Linux (Arch)  
+- Linux (Arch), GitHub Actions, CI/CD pipelines  
 
 ---
 
 ## 🎓 Education
-- **M.Sc. in Astrophysics** – University of Padua  
-- Additional training in Data Science, AI, and Financial Engineering  
+- **M.Sc. in Astrophysics** – University of Padua (2010–2013)  
+- **B.Sc. in Astrophysics** – University of Padua (2004–2009)  
+- **Swiss Maturity Diploma** – Private student (CH, 1999–2002)  
 
 ---
 
 ## 📄 Publications & Projects
 - [⚡ MultiAgentHFT](../projects/multiagenthft) – Multi-agent system for high-frequency trading  
 - [📈 FinLLM](../projects/finllm) – LLMs for financial analytics  
+- [🤖 AI Dashboards](../projects/ai-dashboards) – Intelligent dashboards for data-driven decisions  
 
 ---
 
 ## 🌍 Languages
-- Italian (native)  
-- English (fluent)  
-- French (basic)  
+- **Italian:** native  
+- **English:** fluent  
+- **French:** intermediate  
+- **German:** basic  
 
 ---
 
 ## 📌 Interests
 - Financial markets, AI systems, teaching innovation  
-- Open-source development and knowledge sharing
+- Open-source development and knowledge sharing  
