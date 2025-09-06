@@ -4,7 +4,7 @@
     "label": "AI Engineer | Data Scientist | Teacher",
     "email": "mleone12@gmail.com",
     "url": "https://github.com/AstroMarius/",
-    "summary": "Experienced AI Engineer with a strong background in algorithmic trading systems, machine learning, and data-driven applications. \nI design and implement low-latency architectures and real-time dashboards powered by intelligent agents, combining C++ performance with Python-based AI models.\n"
+    "summary": "Experienced AI Engineer with a strong background in algorithmic trading systems, machine learning, and data-driven applications.\nI design and implement low-latency architectures and real-time dashboards powered by intelligent agents, combining C++ performance with Python-based AI models."
   },
   "work": [
     {
@@ -12,7 +12,7 @@
       "position": "AI Engineer · Data Scientist/Analyst · Full Stack Developer",
       "startDate": "2019",
       "endDate": "",
-      "summary": "Architected and delivered end-to-end AI solutions for algorithmic and high-frequency trading.\nDesigned and deployed AI-powered trading agents integrating reinforcement learning and deep neural networks.\nBuilt scalable real-time, low-latency data pipelines with ZeroMQ, Docker, and ClickHouse.\nDeveloped full stack applications and interactive financial dashboards (frontend React, backend Node.js/Express, SQL/NoSQL DB).\nIntegrated LLMs for financial analytics, risk assessment, sentiment analysis, and automated reporting.\nImplemented backtesting and simulation frameworks for systematic evaluation of trading strategies.\nLed multi-agent architectures combining C++ (performance) and Python (AI/ML).\nOptimized GPU workloads (CUDA, NVIDIA RTX, PyTorch/TensorFlow).\nDelivered consulting and training services on AI integration, ML pipelines, and full stack development best practices."
+      "summary": "Architected and delivered end-to-end AI solutions for algorithmic and high-frequency trading.\nDesigned and deployed AI-powered trading agents integrating reinforcement learning and deep neural networks.\nBuilt scalable real-time, low-latency data pipelines with ZeroMQ, Docker, and ClickHouse.\nDeveloped full stack applications and interactive financial dashboards (frontend React, backend Node.js/Express, SQL/NoSQL DB).\nDesigned and implemented data pipelines, data cleaning, and preprocessing workflows for structured/unstructured datasets.\nConducted advanced data analysis, building credit risk models, churn prediction systems, and time-series forecasting solutions.\nIntegrated LLMs for financial analytics, risk assessment, sentiment analysis, and automated reporting.\nImplemented backtesting and simulation frameworks for systematic evaluation of trading strategies.\nLed multi-agent architectures combining C++ (performance) and Python (AI/ML).\nOptimized GPU workloads (CUDA, NVIDIA RTX, PyTorch/TensorFlow).\nDelivered consulting and training services on AI integration, ML pipelines, data science workflows, and full stack development best practices."
     },
     {
       "name": "Freelance",
