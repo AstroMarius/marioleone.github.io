@@ -1,4 +1,4 @@
-basics:
+personalInfo:
   name: Mario Leone
   label: AI Engineer | Data Scientist | Teacher
   email: mleone12@gmail.com
@@ -6,28 +6,27 @@ basics:
   summary: |
     Experienced AI Engineer with a strong background in algorithmic trading systems, machine learning, and data-driven applications. 
     I design and implement low-latency architectures and real-time dashboards powered by intelligent agents, combining C++ performance with Python-based AI models.
-
-work:
-  - company: Freelance
-    position: AI Engineer · Data Scientist/Analyst · Full Stack Developer
-    startDate: "2019"
-    summary:
-      - Architected and delivered end-to-end AI solutions for algorithmic and high-frequency trading.
-      - Designed and deployed AI-powered trading agents integrating reinforcement learning and deep neural networks.
-      - Built scalable real-time, low-latency data pipelines with ZeroMQ, Docker, and ClickHouse.
-      - Developed full stack applications and interactive financial dashboards (frontend React, backend Node.js/Express, SQL/NoSQL DB).
-      - Designed and implemented data pipelines, data cleaning, and preprocessing workflows for structured/unstructured datasets.
-      - Conducted advanced data analysis, building credit risk models, churn prediction systems, and time-series forecasting solutions.
-      - Integrated LLMs for financial analytics, risk assessment, sentiment analysis, and automated reporting.
-      - Implemented backtesting and simulation frameworks for systematic evaluation of trading strategies.
-      - Led multi-agent architectures combining C++ (performance) and Python (AI/ML).
-      - Optimized GPU workloads (CUDA, NVIDIA RTX, PyTorch/TensorFlow).
-      - Delivered consulting and training services on AI integration, ML pipelines, data science workflows, and full stack development best practices.
-
+  work:
+    - company: Freelance
+      position: AI Engineer · Data Scientist/Analyst · Full Stack Developer
+      startDate: "2019"
+      summary:
+        - Architected and delivered end-to-end AI solutions for algorithmic and high-frequency trading.
+        - Designed and deployed AI-powered trading agents integrating reinforcement learning and deep neural networks.
+        - Built scalable real-time, low-latency data pipelines with ZeroMQ, Docker, and ClickHouse.
+        - Developed full stack applications and interactive financial dashboards (frontend React, backend Node.js/Express, SQL/NoSQL DB).
+        - Designed and implemented data pipelines, data cleaning, and preprocessing workflows for structured/unstructured datasets.
+        - Conducted advanced data analysis, building credit risk models, churn prediction systems, and time-series forecasting solutions.
+        - Integrated LLMs for financial analytics, risk assessment, sentiment analysis, and automated reporting.
+        - Implemented backtesting and simulation frameworks for systematic evaluation of trading strategies.
+        - Led multi-agent architectures combining C++ (performance) and Python (AI/ML).
+        - Optimized GPU workloads (CUDA, NVIDIA RTX, PyTorch/TensorFlow).
+        - Delivered consulting and training services on AI integration, ML pipelines, data science workflows, and full stack development best practices.
 
 
-  - company: Freelance
-    position: Data Analyst / Scientist
+
+  - company: "Freelance"
+    position: "Data Analyst / Scientist"
     startDate: "2010"
     summary:
       - Conducted statistical modeling and predictive analysis for financial and industrial sectors.
@@ -45,7 +44,7 @@ work:
       - Prepared students for university-level STEM pathways.
       - Developed digital resources and interactive materials using LaTeX, Zoom, and GitHub.
 
-education:
+academicBackground:
   - institution: University of Padua
     area: Astrophysics
     studyType: M.Sc.
