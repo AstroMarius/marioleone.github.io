@@ -211,6 +211,42 @@ ol {
   margin-top: 1rem; /* Spazio sopra l'elenco ordinato */
   margin-bottom: 1rem; /* Spazio sotto l'elenco ordinato */
   padding-left: 1.5rem; /* Indentazione degli elementi */
+  
+/* Stili per i blocchi di codice evidenziati */
+pre[class*="language-"] {
+  background: #2d2d2d;
+  color: #f8f8f2;
+  padding: 1em;
+  border-radius: 8px;
+  overflow: auto;
+  font-size: 0.9em;
+  line-height: 1.5;
+  position: relative;
+}
+
+code[class*="language-"] {
+  font-family: 'Fira Code', monospace;
+}
+
+/* Stili per il pulsante Copia codice */
+.copy-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #ff79c6;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 0.75em;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.copy-button:hover {
+  opacity: 1;
+}
 }
 
 ol li {

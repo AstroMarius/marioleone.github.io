@@ -6,6 +6,30 @@
 <title>Projects - Mario Leone</title>
 <meta name="description" content="C++/Python • Trading Systems • ML/LLM">
 <link rel="stylesheet" href="/assets/css/style.css">
+<!-- Prism.js CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+<!-- Prism.js Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+<!-- Copy button script -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+	document.querySelectorAll('pre').forEach(function (block) {
+		const button = document.createElement('button');
+		button.innerText = 'Copia';
+		button.className = 'copy-button';
+		block.style.position = 'relative';
+		block.appendChild(button);
+		button.addEventListener('click', function () {
+			const code = block.querySelector('code').innerText;
+			navigator.clipboard.writeText(code).then(() => {
+				button.innerText = 'Copiato!';
+				setTimeout(() => (button.innerText = 'Copia'), 2000);
+			});
+		});
+	});
+});
+</script>
 
 </head>
 <body>
