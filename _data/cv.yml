@@ -16,11 +16,14 @@ work:
       - Designed and deployed AI-powered trading agents integrating reinforcement learning and deep neural networks.
       - Built scalable real-time, low-latency data pipelines with ZeroMQ, Docker, and ClickHouse.
       - Developed full stack applications and interactive financial dashboards (frontend React, backend Node.js/Express, SQL/NoSQL DB).
+      - Designed and implemented data pipelines, data cleaning, and preprocessing workflows for structured/unstructured datasets.
+      - Conducted advanced data analysis, building credit risk models, churn prediction systems, and time-series forecasting solutions.
       - Integrated LLMs for financial analytics, risk assessment, sentiment analysis, and automated reporting.
       - Implemented backtesting and simulation frameworks for systematic evaluation of trading strategies.
       - Led multi-agent architectures combining C++ (performance) and Python (AI/ML).
       - Optimized GPU workloads (CUDA, NVIDIA RTX, PyTorch/TensorFlow).
-      - Delivered consulting and training services on AI integration, ML pipelines, and full stack development best practices.
+      - Delivered consulting and training services on AI integration, ML pipelines, data science workflows, and full stack development best practices.
+
 
 
   - company: Freelance
