@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  {% include header.html %}
+
+  <main class="main-content">
+    <div class="container cv-page">
+      <header class="cv-header">
+        <h1 class="cv-name">{{ site.data.cv.basics.name }}</h1>
+        <p class="cv-label">{{ site.data.cv.basics.label }}</p>
+        {% if site.data.cv.basics.summary %}
+        <p class="cv-summary">{{ site.data.cv.basics.summary }}</p>
+        {% endif %}
+        <p class="cv-contact">
+          {% if site.data.cv.basics.email %}<a href="mailto:{{ site.data.cv.basics.email }}">{{ site.data.cv.basics.email }}</a>{% endif %}
+          {% if site.data.cv.basics.url %} · <a href="{{ site.data.cv.basics.url }}">{{ site.data.cv.basics.url }}</a>{% endif %}
+        </p>
+      </header>
+
+      <section class="cv-sections">
+        {% if site.data.cv.work and site.data.cv.work.size > 0 %}
+        <div class="cv-section work">
+          <h2>Work</h2>
+          {% for job in site.data.cv.work %}
+          <div class="cv-item">
+            <h3 class="cv-item-title">{{ job.position }}{% if job.company %} — {{ job.company }}{% endif %}</h3>
+            {% if job.startDate or job.endDate %}
+            <p class="cv-item-date">{% if job.startDate %}{{ job.startDate }}{% endif %}{% if job.endDate %} — {{ job.endDate }}{% endif %}</p>
+            {% endif %}
+            {% if job.summary %}
+              <div class="cv-item-summary">
+                <ul>
+                  {% for s in job.summary %}
+                    <li>{{ s }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if site.data.cv.education and site.data.cv.education.size > 0 %}
+        <div class="cv-section education">
+          <h2>Education</h2>
+          {% for ed in site.data.cv.education %}
+          <div class="cv-item">
+            <h3 class="cv-item-title">{{ ed.studyType }}{% if ed.area %}, {{ ed.area }}{% endif %}</h3>
+            <p class="cv-item-meta">{{ ed.institution }}{% if ed.startDate or ed.endDate %} — {{ ed.startDate }}{% if ed.endDate %} – {{ ed.endDate }}{% endif %}{% endif %}</p>
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if site.data.cv.skills and site.data.cv.skills.size > 0 %}
+        <div class="cv-section skills">
+          <h2>Skills</h2>
+          <div class="skills-list">
+            {% for s in site.data.cv.skills %}
+              <div class="skill">
+                <strong>{{ s.name }}</strong>
+                {% if s.keywords %}
+                  <p>{{ s.keywords | join: ", " }}</p>
+                {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+
+        {% if site.data.cv.languages and site.data.cv.languages.size > 0 %}
+        <div class="cv-section languages">
+          <h2>Languages</h2>
+          <ul>
+            {% for l in site.data.cv.languages %}
+              <li>{{ l.language }}{% if l.fluency %} — {{ l.fluency }}{% endif %}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+
+        {% if site.data.cv.projects and site.data.cv.projects.size > 0 %}
+        <div class="cv-section projects">
+          <h2>Projects</h2>
+          <ul>
+            {% for p in site.data.cv.projects %}
+              <li><strong>{{ p.name }}</strong>{% if p.summary %}: {{ p.summary }}{% endif %}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+
+        {% if site.data.cv.interests and site.data.cv.interests.size > 0 %}
+        <div class="cv-section interests">
+          <h2>Interests</h2>
+          <ul>
+            {% for i in site.data.cv.interests %}
+              <li>{{ i }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+
+      </section>
+
+      <section class="cv-content">
+        {{ content }}
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}.</p>
+    </div>
+  </footer>
+</body>
+</html>
