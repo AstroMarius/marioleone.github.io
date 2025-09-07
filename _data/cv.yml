@@ -91,6 +91,6 @@ projects:
   - name: "FinLLM"
     summary: "LLMs for financial analytics"
     url: "/projects/finllm/"
-  - name: "Predictive Analytics with Machine Learning"
+  - name: "Predictive Analytics - ML"
     summary: "Predictive Analytics with Machine Learning"
     url: "/projects/datascientist/"
