@@ -17,15 +17,15 @@ work:
       - Built scalable real-time, low-latency data pipelines with ZeroMQ, Docker, and ClickHouse.
       - Developed full stack applications and interactive financial dashboards (frontend React, backend Node.js/Express, SQL/NoSQL DB).
       - Designed and implemented data pipelines, data cleaning, and preprocessing workflows for structured/unstructured datasets.
-  - name: "MultiAgentHFT"
-    summary: "Multi-agent system for high-frequency trading"
-    url: "/projects/multiagenthft/"
-  - name: "FinLLM"
-    summary: "LLMs for financial analytics"
-    url: "/projects/finllm/"
-  - name: "AI Dashboards"
-    summary: "Intelligent dashboards for data-driven decisions"
-    url: "/projects/ai-dashboards/"
+      - Conducted advanced data analysis, building credit risk models, churn prediction systems, and time-series forecasting solutions.
+      - Integrated LLMs for financial analytics, risk assessment, sentiment analysis, and automated reporting.
+      - Implemented backtesting and simulation frameworks for systematic evaluation of trading strategies.
+      - Led multi-agent architectures combining C++ (performance) and Python (AI/ML).
+      - Optimized GPU workloads (CUDA, NVIDIA RTX, PyTorch/TensorFlow).
+      - Delivered consulting and training services on AI integration, ML pipelines, data science workflows, and full stack development best practices.
+
+  - company: "Freelance"
+    position: "Data Analyst / Scientist"
     startDate: "2010"
     summary:
       - Conducted statistical modeling and predictive analysis for financial and industrial sectors.
@@ -56,99 +56,41 @@ education:
     endDate: "2009"
   - institution: "Private Student (Switzerland)"
     area: "Swiss Maturity Diploma"
-    basics:
-      name: "Mario Leone"
-      label: "AI Engineer | Data Scientist | Teacher"
-      email: "mleone12@gmail.com"
-      url: "https://github.com/AstroMarius/"
-      summary: |-
-        Experienced AI Engineer with a strong background in algorithmic trading systems, machine learning, and data-driven applications.
-        I design and implement low-latency architectures and real-time dashboards powered by intelligent agents, combining C++ performance with Python-based AI models.
+    studyType: "Diploma"
+    startDate: "1999"
+    endDate: "2002"
 
-    work:
-      - company: "Freelance"
-        position: "AI Engineer · Data Scientist/Analyst · Full Stack Developer"
-        startDate: "2019"
-        summary:
-          - Architected and delivered end-to-end AI solutions for algorithmic and high-frequency trading.
-          - Designed and deployed AI-powered trading agents integrating reinforcement learning and deep neural networks.
-          - Built scalable real-time, low-latency data pipelines with ZeroMQ, Docker, and ClickHouse.
-          - Developed full stack applications and interactive financial dashboards (frontend React, backend Node.js/Express, SQL/NoSQL DB).
-          - Designed and implemented data pipelines, data cleaning, and preprocessing workflows for structured/unstructured datasets.
-          - Conducted advanced data analysis, building credit risk models, churn prediction systems, and time-series forecasting solutions.
-          - Integrated LLMs for financial analytics, risk assessment, sentiment analysis, and automated reporting.
-          - Implemented backtesting and simulation frameworks for systematic evaluation of trading strategies.
-          - Led multi-agent architectures combining C++ (performance) and Python (AI/ML).
-          - Optimized GPU workloads (CUDA, NVIDIA RTX, PyTorch/TensorFlow).
-          - Delivered consulting and training services on AI integration, ML pipelines, data science workflows, and full stack development best practices.
+languages:
+  - language: "Italian"
+    fluency: "Native"
+  - language: "English"
+    fluency: "Fluent"
+  - language: "French"
+    fluency: "Intermediate"
+  - language: "German"
+    fluency: "Basic"
 
-      - company: "Freelance"
-        position: "Data Analyst / Scientist"
-        startDate: "2010"
-        summary:
-          - Conducted statistical modeling and predictive analysis for financial and industrial sectors.
-          - Developed credit risk models, churn prediction systems, and time-series forecasting solutions.
-          - Designed and deployed machine learning workflows from preprocessing to production.
-          - Managed ETL pipelines and large-scale datasets ensuring quality and reproducibility.
-          - Collaborated with cross-functional teams to integrate AI-driven dashboards and decision support tools.
+skills:
+  - name: "Programming & Technical Skills"
+    keywords: [C++, Python, TypeScript, JavaScript, R, MATLAB, SQL, C]
+  - name: "ML & AI"
+    keywords: [PyTorch, TensorFlow, Scikit-learn, Hugging Face, Deep Learning, Reinforcement Learning, Financial ML]
+  - name: "Data Engineering"
+    keywords: [ETL pipelines, Data Cleaning, Data Mining, Structured & Unstructured Data, ClickHouse, ZeroMQ]
+  - name: "Visualization"
+    keywords: [Tableau, Power BI, Data Storytelling, Advanced Excel]
+  - name: "Cloud & DevOps"
+    keywords: [AWS, Azure, Docker, Kubernetes, Jenkins, Git, GitHub Actions, Linux (Arch)]
+  - name: "Other Tools"
+    keywords: [Ollama, Text-Generation-WebUI, Bash, WordPress, Adobe Illustrator, Photoshop]
 
-      - company: "Public & Private Schools (IT/CH)"
-        position: "Teacher (Mathematics & Physics)"
-        startDate: "2013"
-        summary:
-          - Taught high school Mathematics and Physics in Italy and Switzerland.
-          - Designed curricula bridging math, physics, and computer science with real-world applications.
-          - Prepared students for university-level STEM pathways.
-          - Developed digital resources and interactive materials using LaTeX, Zoom, and GitHub.
-
-    education:
-      - institution: "University of Padua"
-        area: Astrophysics
-        studyType: "M.Sc."
-        startDate: "2010"
-        endDate: "2013"
-      - institution: "University of Padua"
-        area: Astrophysics
-        studyType: "B.Sc."
-        startDate: "2004"
-        endDate: "2009"
-      - institution: "Private Student (Switzerland)"
-        area: "Swiss Maturity Diploma"
-        studyType: "Diploma"
-        startDate: "1999"
-        endDate: "2002"
-
-    languages:
-      - language: "Italian"
-        fluency: "Native"
-      - language: "English"
-        fluency: "Fluent"
-      - language: "French"
-        fluency: "Intermediate"
-      - language: "German"
-        fluency: "Basic"
-
-    skills:
-      - name: "Programming & Technical Skills"
-        keywords: [C++, Python, TypeScript, JavaScript, R, MATLAB, SQL, C]
-      - name: "ML & AI"
-        keywords: [PyTorch, TensorFlow, Scikit-learn, Hugging Face, Deep Learning, Reinforcement Learning, Financial ML]
-      - name: "Data Engineering"
-        keywords: [ETL pipelines, Data Cleaning, Data Mining, Structured & Unstructured Data, ClickHouse, ZeroMQ]
-      - name: "Visualization"
-        keywords: [Tableau, Power BI, Data Storytelling, Advanced Excel]
-      - name: "Cloud & DevOps"
-        keywords: [AWS, Azure, Docker, Kubernetes, Jenkins, Git, GitHub Actions, Linux (Arch)]
-      - name: "Other Tools"
-        keywords: [Ollama, Text-Generation-WebUI, Bash, WordPress, Adobe Illustrator, Photoshop]
-
-    projects:
-      - name: "MultiAgentHFT"
-        summary: "Multi-agent system for high-frequency trading"
-        url: "/projects/multiagenthft/"
-      - name: "FinLLM"
-        summary: "LLMs for financial analytics"
-        url: "/projects/finllm/"
-      - name: "AI Dashboards"
-        summary: "Intelligent dashboards for data-driven decisions"
-        url: "/projects/ai-dashboards/"
+projects:
+  - name: "MultiAgentHFT"
+    summary: "Multi-agent system for high-frequency trading"
+    url: "/projects/multiagenthft/"
+  - name: "FinLLM"
+    summary: "LLMs for financial analytics"
+    url: "/projects/finllm/"
+  - name: "AI Dashboards"
+    summary: "Intelligent dashboards for data-driven decisions"
+    url: "/projects/ai-dashboards/"
