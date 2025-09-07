@@ -89,11 +89,7 @@
         {% if site.data.cv.projects and site.data.cv.projects.size > 0 %}
         <div class="cv-section projects">
           <h2>Projects</h2>
-          <ul>
-            {% for p in site.data.cv.projects %}
-              <li><strong>{{ p.name }}</strong>{% if p.summary %}: {{ p.summary }}{% endif %}</li>
-            {% endfor %}
-          </ul>
+          <ul>{% for p in site.data.cv.projects %}<li><strong>{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</strong>{% if p.summary %}: {{ p.summary }}{% endif %}</li>{% endfor %}</ul>
         </div>
         {% endif %}
 
@@ -122,5 +118,5 @@
       <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}.</p>
     </div>
   </footer>
-</body>
+  </body>
 </html>
