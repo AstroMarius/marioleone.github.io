@@ -92,5 +92,5 @@ projects:
     summary: "LLMs for financial analytics"
     url: "/projects/finllm/"
   - name: "AI Dashboards"
-    summary: "Intelligent dashboards for data-driven decisions"
+    summary: "Predictive Analytics with Machine Learning"
     url: "/projects/ai-dashboards/"
