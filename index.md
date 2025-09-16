@@ -39,7 +39,6 @@ Expertise in **Large Language Models (LLMs)**, **Deep Learning**, and **Financia
 - Time-series forecasting  
 - Advanced data analysis and decision support  
 
-
 ### Systems & Infrastructure  
 
 Specialized in high-performance architectures and real-time data processing pipelines, ensuring low-latency execution, scalability, and production reliability.
@@ -72,7 +71,7 @@ This project bridges **cutting-edge AI** with **HFT infrastructure**, aiming to 
 
 ---
 
-## Online Tutoring Booking Dashboard (in development)
+## 📚 Online Tutoring Booking Dashboard (in development)
 
 Building an online booking dashboard for a tutoring service with focus on reliability, usability and scalability. Core features and stack:
 
@@ -87,4 +86,3 @@ Building an online booking dashboard for a tutoring service with focus on reliab
   - Lesson materials, session notes and attachments
   - Tests, CI/CD pipelines, containerized deployments and monitoring (Prometheus/Grafana)
 - Goals: provide a polished UX for students, an efficient management interface for tutors, and a robust, production-ready backend able to scale with demand.
- 
