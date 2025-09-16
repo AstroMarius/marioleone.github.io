@@ -59,7 +59,7 @@ Proficient with **Docker**, **Kubernetes**, **Jenkins**, **AWS**, and **Azure** 
 
 ---
 
-## 🚀 Current Project Highlight  
+## 🚀 Current Project Highlight  (in development)
 
 - **High-Frequency Trading Dashboard with Intelligent Agents**  
   Developing a next-generation **real-time trading dashboard** that integrates:  
