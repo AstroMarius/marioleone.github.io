@@ -21,6 +21,8 @@ Experienced AI Engineer with a strong background in algorithmic trading systems 
 
 I design and implement low-latency architectures and real-time dashboards powered by intelligent trading agents. By combining C++ performance with Python-based AI models, I build solutions that enhance execution speed and decision-making in high-frequency trading environments. Beyond trading, my expertise extends to developing scalable AI systems and data-driven applications across financial and industrial domains.
 
+Additionally, I work as a full-stack developer building production-ready web applications and APIs. I design end-to-end solutions that pair performant backends with intuitive frontends and reliable databases. Typical technologies I use include Laravel and Node.js for back-ends, MySQL/PostgreSQL for storage, Redis for caching and queues, Vue.js/React for front-ends, and Docker + CI/CD for deployments.
+
 ---
 
 ## Skills  
@@ -55,6 +57,10 @@ Proficient with **Docker**, **Kubernetes**, **Jenkins**, **AWS**, and **Azure** 
 - Ability to **translate business requirements into technical solutions**  
 - Solid background in **quantitative analysis** and **project management**  
 - Clear and effective **communication** in cross-functional teams  
+
+### Full-stack Developer
+
+In addition to AI and low-latency systems, I work as a full-stack developer building robust web applications and APIs. I design end-to-end solutions that combine performant backends, reliable databases, and intuitive frontends. My typical stack includes Laravel (PHP), Node.js, SQL databases (MySQL/PostgreSQL), RESTful and GraphQL APIs, and modern front-end frameworks such as Vue.js or React. I deploy services using Docker and CI/CD pipelines, with monitoring and observability to ensure production reliability.
 
 ---
 
